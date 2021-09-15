@@ -1,0 +1,23 @@
+<div class="body">
+    <h2 class="text-center"> Lista de livros</h2>
+    <div class="container">
+        <table class="table table-striped table-dark">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nome</th>
+                    <th>Data de publicação</th>
+                    <th>Código emprestimo</th>
+                </tr>
+            </thead>
+            <tBody>
+                <tr *ngFor="let livro of livros">
+                    <td>{{ livro.codigoLivro }}</td>
+                    <td>{{ livro.nomeLivro }}</td>
+                    <td>{{ livro.dataPublicacao | date : 'dd MMMM yyyy'}}</td>
+                    <td>{{ livro.emprestimo.codEmprestimo}}</td>
+                </tr>
+            </tBody>
+        </table>
+    </div>
+</div>
