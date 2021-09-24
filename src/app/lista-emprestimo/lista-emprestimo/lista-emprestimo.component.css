@@ -2,17 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap');
 
 .body {
-    
     height: 4500px;
     background: linear-gradient(180deg, black 61.38%, #BFBFBF 105.93%);
-    left: 0px;
-    right: 0px;
+    left: auto;
+    right: auto;
     zoom: 80%;
     /*display: flex;
     flex-direction:column;
     flex-wrap: wrap;
     justify-content: start;*/
-  
 }
 
 .imagem3 {
